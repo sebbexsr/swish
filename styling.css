@@ -1,0 +1,105 @@
+img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+   
+}
+
+#kanduswisha {
+animation-name: kanduswisha;
+animation-duration: 2s;    
+position: fixed;
+left: 230px;
+top: 115px;
+}
+
+#hurmycket {
+    animation-name: hurmycket;
+    animation-duration: 6s;
+    position: fixed;
+    left: 10px;
+    top: 160px;
+}
+
+#hundra {
+    animation-name: hundra;
+    animation-duration: 10s;
+    position: fixed;
+    left: 310px;
+    top: 205px;
+}
+
+#ok {
+    animation-name: ok;
+    animation-duration: 14s;
+    position: fixed;
+    left: -15px;
+    top: 265px;
+}
+
+#fot {
+    animation-name: fot;
+    animation-duration: 16s;
+    left: 220px;
+    top: 310px;
+}
+
+@keyframes kanduswisha {
+0% {
+    opacity: 0
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+@keyframes hurmycket {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+
+    @keyframes hundra {
+        0% {
+            opacity: 0
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+        }
+
+        @keyframes ok {
+            0% {
+                opacity: 0
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+            }
+
+            @keyframes fot {
+                0% {
+                    opacity: 0
+                }
+                75% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
